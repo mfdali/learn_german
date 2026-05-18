@@ -82,6 +82,15 @@ the grammar rules learned during A1.
 
 **Insight:** Especificar o nível e o perfil do estudante ("que às vezes esquece regras do A1") resultou em frases mais simples no vocabulário, mas desafiadoras na gramática — exatamente o equilíbrio necessário.
 
+**Tópicos coberto pelo quiz:**
+- German Accusative Case
+- German Dative Case
+- Word Order with Objects
+- Two-way Prepositions (Wechselpräpositionen)
+- German Negation (kein vs nicht)
+- Relative Pronouns and Clauses
+- Prepositions of Direction (nach vs zu vs in)
+
 ***
 
 ### Prompt 4 — Infográfico (entrega gerada pelo NotebookLM)
