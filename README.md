@@ -1,10 +1,8 @@
 # learn_german
 
-https://notebooklm.google.com/notebook/8d50371c-9816-449b-9f41-4abc4b6495ff
+# 🇩🇪 Deutsche Grammatik — Dativ & Akkusativ
 
-# 🇩🇪 Deutsche Grammatik — Kasus: Dativ & Akkusativ
-
-> Caderno temático criado com **NotebookLM** para revisão sistemática dos casos gramaticais do alemão: **Dativo** e **Acusativo**.
+> Caderno criado com **NotebookLM** para revisão gramatical dos casos do alemão: **Dativ** e **Akkusative**.
 
 🔗 **[Acessar o NotebookLM](https://notebooklm.google.com/notebook/8d50371c-9816-449b-9f41-4abc4b6495ff)**
 
