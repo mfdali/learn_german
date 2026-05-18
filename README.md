@@ -47,8 +47,7 @@ Esta seção documenta as perguntas estratégicas elaboradas no NotebookLM, as v
 ### Prompt 1 — Levantamento inicial dos casos
 
 ```
-Qual é a diferença principal entre o Dativo e o Acusativo no alemão?
-Explique com exemplos simples e uma tabela comparativa.
+Teach me in what cases do I need to use dative and acusative. Show me sentence examples
 ```
 
 **Resposta obtida:** Explicação diferenciando o Acusativo como objeto direto (*wen/was?*) e o Dativo como objeto indireto (*wem?*), com tabela de artigos e exemplos contextualizados.
@@ -57,52 +56,19 @@ Explique com exemplos simples e uma tabela comparativa.
 
 ***
 
-### Prompt 2 — Tabela de declinações
+### Prompt 2 — Verbos que necessitam de declinações
 
 ```
-Gere uma tabela completa com as declinações dos artigos definidos e indefinidos
-para Nominativo, Acusativo e Dativo, separados por gênero
-(maskulin, feminin, neutrum, Plural).
+Which common verbs always require the dative case?
 ```
 
-**Resposta obtida:** Tabela 4×3 com as formas de todos os artigos. Destaque para o ponto crítico: no masculino, apenas o Nominativo difere do Acusativo (`der` → `den`); no feminino e neutro, as formas são idênticas.
+**Resposta obtida:** Lista baseada nas fontes adicionadas com os verbos que necessitam da declinação dativa e aqueles que pedem a combinação das declinações dativo e acusativo.
 
-**Insight:** Pedir para "destacar os casos em que Nominativo e Acusativo diferem" filtrou o excesso de informação e focou no ponto de maior confusão.
+**Insight:** Pedir para "destacar os verbos em que o Dativo é necessário" filtrou o excesso de informação e focou no ponto de maior probabilidade de acerto de frases.
 
 ***
 
-### Prompt 3 — Preposições de direção
-
-```
-Explique as diferenças entre "nach", "in" e "zu" como preposições de direção.
-Em quais contextos cada uma é usada? Dê exemplos práticos.
-```
-
-**Resposta obtida:** 
-- *nach* → países e cidades sem artigo (*Ich fahre nach Berlin.*)
-- *in* → países com artigo e destinos físicos com ideia de "dentro" (*Ich gehe in die Schule.*)
-- *zu* → pessoas e edificações específicas (*Ich fahre zum Bahnhof.*)
-
-**Cicatriz:** Na primeira tentativa, sem especificar "preposições de direção", a IA misturou preposições de localização com as de movimento. Refinar o escopo foi essencial.
-
-***
-
-### Prompt 4 — Preposições com dupla regência
-
-```
-Quais preposições em alemão podem reger tanto Dativo quanto Acusativo?
-Explique a regra com exemplos usando "in" e "auf".
-```
-
-**Resposta obtida:** As *Wechselpräpositionen* (an, auf, hinter, in, neben, über, unter, vor, zwischen) regem:
-- **Dativo** → estado/localização (*wo?*): *Das Buch liegt auf **dem** Tisch.*
-- **Acusativo** → movimento/direção (*wohin?*): *Ich lege das Buch auf **den** Tisch.*
-
-**Cicatriz:** Sem pedir exemplos com "movimento e localização" explicitamente, a resposta ficou teórica demais para ser útil na prática.
-
-***
-
-### Prompt 5 — Quiz (entrega gerada pelo NotebookLM)
+### Prompt 3 — Quiz (entrega gerada pelo NotebookLM)
 
 ```
 Create a quiz in german language to help me understand and truly learn
@@ -118,7 +84,7 @@ the grammar rules learned during A1.
 
 ***
 
-### Prompt 6 — Infográfico (entrega gerada pelo NotebookLM)
+### Prompt 4 — Infográfico (entrega gerada pelo NotebookLM)
 
 ```
 Use a clean and minimalist way to teach accusative and dative german cases
@@ -135,7 +101,7 @@ to a student level A2.
 
 ### Resumos Estruturados
 
-#### Os Quatro Casos (*Fälle*)
+#### Os Quatro Casos
 
 O alemão usa casos para marcar a função de cada substantivo na frase. Os quatro casos são:
 
